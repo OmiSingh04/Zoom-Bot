@@ -1,7 +1,7 @@
 import subprocess
 import pyautogui
 import time
-import pandas as pd  #data analysis?? basically access a spreadsheet with data in it -_-
+import pandas as pd  #data analysis?? basically access a csv with data in it -_-
 from datetime import datetime
 
 def sign_in(meetingid):
