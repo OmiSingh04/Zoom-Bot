@@ -15,9 +15,10 @@ def sign_in(meetingid):
 	print("clicked")
 
 	#this part is to write the meeting id after clicking there
-	'''meeting_id = pyautogui.locateCenterOnScreen("meeting_id.png")
+	meeting_id = pyautogui.locateCenterOnScreen("meeting_id.png")
 	pyautogui.moveTo(meeting_id)
-	pyautogui.click()'''
+	pyautogui.click()
+	
 	time.sleep(5)
 	pyautogui.write(meetingid)
 	print(meetingid)
@@ -33,12 +34,5 @@ def sign_in(meetingid):
 	pyautogui.moveTo(final_join)
 	pyautogui.click()
 
-	
-
-'''
-while True:
-	now = datetime.now().strftime("%H:%M")
-	if now in str(df['timings']):
-'''
 
 sign_in("1111111111")
